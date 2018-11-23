@@ -1,13 +1,13 @@
 footer {
   width: 100%;
-  height: 500px;
+  min-height: 500px;
   background-color: #a6196f;
   color: #ffffff; }
 
-#footer-grid {
-  display: grid;
-  grid-template-columns: 460px auto;
-  grid-column-gap: 20px; }
+#footer-left, #footer-right {
+  height: auto;
+  padding: 0;
+  margin-bottom: 50px; }
 
 #footer-left-img {
   width: 180px;
@@ -15,36 +15,68 @@ footer {
   margin-top: -20px; }
 
 #footer-left-form {
-  width: 100%;
-  height: 250px;
-  margin-top: 30px; }
+  margin-top: 20px; }
   #footer-left-form input {
-    margin: 0;
-    vertical-align: middle;
     border: none;
-    padding: 2px;
-    line-height: 30px;
-    margin-bottom: 10px; }
-  #footer-left-form input[name="email"] {
-    width: 454px; }
-  #footer-left-form input[name="name"], #footer-left-form input[name="number"] {
-    width: 223px; }
+    margin-bottom: 6px;
+    padding: 10px; }
+  #footer-left-form input[name="number"] {
+    float: right; }
   #footer-left-form input[type="submit"] {
-    width: 459px;
+    border: none;
     color: #f0f0f0;
     font-weight: bold;
     background-color: #f99d1b; }
   #footer-left-form textarea {
     border: none;
-    width: 456px;
+    width: 100%;
     height: 128px; }
 
 #footer-left-conect {
   width: 100%;
   height: 50px;
-  margin-top: 30px;
-  display: grid;
-  grid-template-columns: 120px auto;
-  grid-column-gap: 20px; }
+  margin-top: 20px; }
+  #footer-left-conect div {
+    float: left;
+    margin-right: 10px; }
+  #footer-left-conect i {
+    float: left;
+    margin-right: 10px; }
+
+@media (min-width: 1200px) {
+  #footer-left-form {
+    width: 450px; }
+    #footer-left-form input {
+      width: 100%; }
+    #footer-left-form input[name="name"], #footer-left-form input[name="number"] {
+      width: 223px; } }
+@media (min-width: 992px) and (max-width: 1199px) {
+  #footer-left-form {
+    width: 400px; }
+    #footer-left-form input {
+      width: 100%; }
+    #footer-left-form input[name="name"], #footer-left-form input[name="number"] {
+      width: 197px; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  #footer-left-form {
+    width: 620px; }
+    #footer-left-form input {
+      width: 100%; }
+    #footer-left-form input[name="name"], #footer-left-form input[name="number"] {
+      width: 307px; } }
+@media (min-width: 576px) and (max-width: 767px) {
+  #footer-left-form {
+    width: 620px; }
+    #footer-left-form input {
+      width: 100%; }
+    #footer-left-form input[name="name"], #footer-left-form input[name="number"] {
+      width: 307px; } }
+@media (min-width: 0px) and (max-width: 575px) {
+  #footer-left-form {
+    width: 300px; }
+    #footer-left-form input {
+      width: 100%; }
+    #footer-left-form input[name="name"], #footer-left-form input[name="number"] {
+      width: 147px; } }
 
 /*# sourceMappingURL=footer.css.map */

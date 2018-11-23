@@ -1,20 +1,17 @@
 //section-2
 #back-section-2{
+    overflow: hidden;
     position: relative;
-    margin-top: 40px;
     width: 100%;
     height: 440px;
-    overflow-x: hidden;
     background-color: #f99d1b;
     .wrap-section-2{
-        width: 1260px;
-        padding-top: 30px;
         display: table;
         margin: 0 auto;
     }
 }
 .wrap-section-2-slider{
-    width: 1260px;
+    padding-top: 20px;
     height: auto;
     margin: 0 auto;
 }
@@ -23,19 +20,22 @@
     transition:  0.5s;
     width: 586px;
     height: auto;
-    display: grid;
-    grid-template-columns: repeat(9, 1fr);
-    grid-column-gap: 20px;
     .section-2-slider-item{
+        margin-right: 20px;
         width: 586px;
         height: auto;
         display: inline-block;
         .section-2-slider-image{
-            border: 10px solid #f0f0f0;
             width: 586px;
             height: 400px;
-            margin-top: 10px;
-            background-color: grey;
+            background-color: #f99d1b;
+        }
+        .wrap-image{
+            width: auto;
+            height: 400px;
+            overflow: hidden;
+            outline: 11px solid #f0f0f0;
+            outline-offset: -10px;
         }
     }
 }
@@ -75,4 +75,71 @@
 }
 .btn-slider-right{
     right: 0px;
+}
+
+//width
+
+@media (min-width: 1200px) {
+
+    .wrap-section-2{
+        width: 1260px;
+    }
+    .wrap-section-2-slider{
+        width: 1260px;
+    }
+    .btn-slider{
+        width: 100px;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    .wrap-section-2{
+        width: 940px;
+    }
+    .wrap-section-2-slider{
+        width: 940px;
+    }
+    .btn-slider{
+        width: 100px;
+    }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .wrap-section-2{
+        width: 620px;
+    }
+    .wrap-section-2-slider{
+        width: 620px;
+    }
+    .btn-slider{
+        width: 80px;
+    }
+
+}
+
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    .wrap-section-2{
+        width: 620px;
+    }
+    .wrap-section-2-slider{
+        width: 620px;
+    }
+    .btn-slider{
+        width: 50px;
+    }
+
+}
+    
+@media (min-width: 0px) and (max-width: 575px) {
+
+    #back-section-2{ display: none;}
+  
 }

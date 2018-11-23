@@ -46,6 +46,12 @@
         min-height: 50vh;
         height: 50vh !important;
     }
+    
+    .banner.cover_01 {
+        padding: 0;
+        min-height: 400px;
+        height: 400px;
+    }
 
     .banner:after {
         -moz-pointer-events: none;
@@ -69,7 +75,7 @@
         z-index: 2;
     }
 
-    /*.banner .indicators {
+    .banner .indicators {
         bottom: 1.5em;
         left: 0;
         list-style: none;
@@ -79,7 +85,8 @@
         text-align: center;
         width: 100%;
         z-index: 2;
-    }*/
+        display: none;
+    }
 
         .banner .indicators li {
             cursor: pointer;
@@ -145,7 +152,7 @@
             top: 0;
             left: 0;
             background: #000;
-/*Độ sáng*/		opacity: 0.05;
+/*Độ sáng*/		opacity: 0.00;
         }
 
         .banner > article h2 {

@@ -1,9 +1,4 @@
-/* 
-  ##Device = Desktops
-  ##Screen = 1281px to higher resolution desktops
-*/
-
-@media (min-width: 1281px) {
+@media (min-width: 1200px) {
   
     .title{
         h2{
@@ -16,42 +11,32 @@
     .section{
         width: 1260px;
         padding-top: 40px;
-        display: table;
         margin: 0 auto;
     }
     //section-0
     #introduce{
         margin-top: 20px;
-        display: grid;
-        grid-template-columns: 940px auto;
-        grid-column-gap: 20px;
         #intro-content{
-            display: grid;
-            grid-template-columns: 460px auto;
-            grid-column-gap: 20px;
+            padding: 0 !important;
+            margin: 0!important;
             #intro-content-video{
-                width: 460px;
-                height: 249px;
-                background-color: grey;
+                padding-right: 10px!important;
+            }
+            #intro-content-text{
+                padding-left: 10px!important;
+            }
+            #intro-extention{
             }
         }
     }
 
     //section-1
-    .short-news, .big-news{
-        display: grid;
-        grid-template-columns: 300px 300px 300px 300px;
-        grid-column-gap: 20px;
-    }
+
   
 }
 
-/* 
-  ##Device = Laptops, Desktops
-  ##Screen = B/w 1025px to 1280px
-*/
 
-@media (min-width: 1025px) and (max-width: 1280px) {
+@media (min-width: 992px) and (max-width: 1199px) {
   
     .title{
         h2{
@@ -62,7 +47,84 @@
         }
     }
     .section{
-        width: 1260px;
+        width: 940px;
+        padding-top: 40px;
+        margin: 0 auto;
+    }
+    //section-0
+    #introduce{
+        margin-top: 20px;
+        #intro-content{
+            padding: 0 !important;
+            margin: 0!important;
+            #intro-content-video{
+                padding-right: 10px!important;
+            }
+            #intro-content-text{
+                padding-left: 10px!important;
+            }
+            #intro-extention{
+            }
+        }
+    }
+
+    //section-1
+
+  
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  
+    .title{
+        h2{
+            font-size: 1.2em;
+        }
+        a{
+            font-size: 0.8em;
+        }
+    }
+    .section{
+        width: 620px;
+        padding-top: 40px;
+        margin: 0 auto;
+    }
+    //section-0
+    #introduce{
+        margin-top: 20px;
+        #intro-content{
+            padding: 0 !important;
+            margin: 0!important;
+            #intro-content-video{
+            }
+            #intro-content-text{
+                margin-top: 10px;
+            }
+        }
+        #intro-extention{
+            padding: 0px;
+            margin-top: 10px;
+        }
+    }
+
+    //section-1
+  
+}
+
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+  
+    .title{
+        h2{
+            font-size: 1.2em;
+        }
+        a{
+            font-size: 0.8em;
+        }
+    }
+    .section{
+        width: 620px;
         padding-top: 40px;
         display: table;
         margin: 0 auto;
@@ -70,70 +132,57 @@
     //section-0
     #introduce{
         margin-top: 20px;
-        display: grid;
-        grid-template-columns: 940px auto;
-        grid-column-gap: 20px;
         #intro-content{
-            display: grid;
-            grid-template-columns: 460px auto;
-            grid-column-gap: 20px;
+            padding: 0 !important;
+            margin: 0!important;
             #intro-content-video{
-                width: 460px;
-                height: 249px;
-                background-color: grey;
             }
+            #intro-content-text{
+                margin-top: 10px;
+            }
+        }
+        #intro-extention{
+            padding: 0px;
+            margin-top: 10px;
         }
     }
 
     //section-1
-    .short-news, .big-news{
-        display: grid;
-        grid-template-columns: 300px 300px 300px 300px;
-        grid-column-gap: 20px;
+}
+    
+@media (min-width: 0px) and (max-width: 575px) {
+  
+    .title{
+        h2{
+            font-size: 1.2em;
+        }
+        a{
+            font-size: 0.8em;
+        }
     }
-  
-}
+    .section{
+        width: 300px;
+        padding-top: 40px;
+        margin: 0 auto;
+    }
+    //section-0
+    #introduce{
+        margin-top: 20px;
+        #intro-content{
+            padding: 0 !important;
+            margin: 0!important;
+            #intro-content-video{
+            }
+            #intro-content-text{
+                margin-top: 10px;
+            }
+        }
+        #intro-extention{
+            padding: 0px;
+            margin-top: 10px;
+        }
+    }
 
-/* 
-  ##Device = Tablets, Ipads (portrait)
-  ##Screen = B/w 768px to 1024px
-*/
-
-@media (min-width: 768px) and (max-width: 1024px) {
-  
-
-  
-}
-
-/* 
-  ##Device = Tablets, Ipads (landscape)
-  ##Screen = B/w 768px to 1024px
-*/
-
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  
-
-  
-}
-
-/* 
-  ##Device = Low Resolution Tablets, Mobiles (Landscape)
-  ##Screen = B/w 481px to 767px
-*/
-
-@media (min-width: 481px) and (max-width: 767px) {
-  
-
-  
-}
-
-/* 
-  ##Device = Most of the Smartphones Mobiles (Portrait)
-  ##Screen = B/w 320px to 479px
-*/
-
-@media (min-width: 320px) and (max-width: 480px) {
-  
-
+    //section-1
   
 }

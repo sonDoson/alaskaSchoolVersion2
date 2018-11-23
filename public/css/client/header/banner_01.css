@@ -1,43 +1,60 @@
 .cover-baner {
   width: 100%;
   height: 400px;
-  background-color: lightblue;
-  display: grid;
-  grid-template-columns: 72% auto; }
+  margin: 0; }
 
 .banner-01 {
+  padding: 0;
   width: 100%;
-  height: 100%; }
+  height: 100%;
+  overflow: hidden; }
 
 .new_elements_first {
   width: 100%;
   height: 100%;
-  background-color: #f6f6f6; }
+  background-color: #ffffff; }
 
 .short-news-top {
   margin-top: 20px;
   margin-left: 20px; }
+  .short-news-top a {
+    color: #000; }
   .short-news-top .short-news-item {
-    margin-bottom: 10px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 10px;
     width: 300px;
-    height: 60px;
-    display: grid;
-    grid-template-columns: 60px auto; }
+    height: 60px; }
     .short-news-top .short-news-item .short-news-item-timetag {
+      float: left;
+      width: 60px;
+      height: 60px;
       background-color: #a6196f; }
       .short-news-top .short-news-item .short-news-item-timetag .wrap-item-timetag {
-        margin: 12px 7px; }
+        margin: 10px 7px; }
         .short-news-top .short-news-item .short-news-item-timetag .wrap-item-timetag p {
+          font-size: 16px;
           color: #ffffff; }
-    .short-news-top .short-news-item .short-news-item-content-wrap {
-      heigth: 100%;
-      width: 100%;
-      background-color: #fff;
-      padding-right: 5px; }
     .short-news-top .short-news-item .short-news-item-content {
-      padding-left: 20px;
-      height: 30.7px;
+      float: left;
+      width: 228px;
+      height: 57px;
+      margin-left: 10px;
       overflow: hidden;
-      display: block; }
+      font-size: 16px; }
+
+@media (min-width: 1200px) {
+  .banner.cover_01 {
+    margin-top: -200px;
+    height: 700px !important; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  .new_elements_first {
+    display: none; } }
+@media (min-width: 576px) and (max-width: 767px) {
+  .new_elements_first {
+    display: none; } }
+@media (min-width: 0px) and (max-width: 575px) {
+  .new_elements_first {
+    display: none; } }
 
 /*# sourceMappingURL=banner_01.css.map */

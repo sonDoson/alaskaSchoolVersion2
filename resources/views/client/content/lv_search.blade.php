@@ -1,10 +1,11 @@
 @extends('client.layout.master_client_layout')
 @section('content')
-    <div class="big-news" style="margin-top:0;grid-template-columns: 300px 300px 300px;grid-row-gap: 30px;">
+    <div class="bn-section-0-container col-lg-12 col-xl-9" style="1px solid black;">
+    <div class="big-news bn-section-0 row" style="margin-top: -20px;">
         @if(!empty($section_0))
         @foreach($section_0 as $key => $value)
+        <div class="big-news-item col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4" style="margin-top: 20px;">
             <a style="color: #000" href="{!! '/cat/' . $value['id_category']. '/' . $value['id'] !!}">
-            <div class="big-news-item">
                 <div class="big-news-item-image" style="background-image:url({{ $value['images'][0] }})"></div>
                 <div class="big-news-item-content font-resize">
                     <b>{!! $value[$lang[0]] !!}</b>
@@ -12,9 +13,10 @@
                         <p>{!! $value[$lang[1]] !!}</p>
                     </div>
                 </div>
-            </div>
             </a>
+        </div>
         @endforeach
         @endif
+    </div>
     </div>
 @stop

@@ -1,0 +1,30 @@
+@media (min-width: 992px) and (max-width: 1199px) {
+  .content-text {
+    width: 940px;
+    margin: 0 auto; }
+    .content-text img {
+      max-width: 940px !important;
+      height: auto !important; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  .content-text {
+    width: 620px;
+    margin: 0 auto; }
+    .content-text img {
+      max-width: 620px !important;
+      height: auto !important; } }
+@media (min-width: 576px) and (max-width: 767px) {
+  .content-text {
+    width: 620px;
+    margin: 0 auto; }
+    .content-text img {
+      max-width: 620px !important;
+      height: auto !important; } }
+@media (min-width: 0px) and (max-width: 575px) {
+  .content-text {
+    width: 300px;
+    margin: 0 auto; }
+    .content-text img {
+      max-width: 300px !important;
+      height: auto !important; } }
+
+/*# sourceMappingURL=lv_posts.css.map */

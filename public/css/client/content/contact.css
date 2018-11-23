@@ -1,28 +1,242 @@
-#section-send-mail {
-  width: 600px;
-  height: 100%;
-  display: table;
-  margin: 0 auto; }
-  #section-send-mail form {
-    margin-top: 15px; }
-    #section-send-mail form input[type="text"] {
-      padding: 5px;
-      margin-bottom: 5px;
-      line-height: 25px; }
-    #section-send-mail form input[name="email"] {
-      width: 586px; }
-    #section-send-mail form input[name="name"], #section-send-mail form input[name="number"] {
-      width: 285px; }
-    #section-send-mail form input[type="submit"] {
-      padding: 5px;
-      width: 598px;
-      line-height: 25px;
-      font-weight: bold;
-      background-color: #f99d1b;
-      color: #fff;
-      border: none; }
-  #section-send-mail textarea {
-    width: 593px;
-    height: 280px; }
+@media (min-width: 1200px) {
+  #section-send-mail {
+    width: 600px;
+    height: 100%;
+    display: table;
+    margin: 0 auto;
+    padding-bottom: 15px; }
+    #section-send-mail form {
+      margin-top: 15px; }
+      #section-send-mail form input[type="text"] {
+        padding: 5px;
+        margin-bottom: 5px;
+        line-height: 25px; }
+      #section-send-mail form input[name="email"] {
+        width: 100%; }
+      #section-send-mail form input[name="name"], #section-send-mail form input[name="number"] {
+        width: 297px; }
+      #section-send-mail form input[name="number"] {
+        float: right; }
+      #section-send-mail form input[type="submit"] {
+        padding: 5px;
+        width: 100%;
+        line-height: 25px;
+        font-weight: bold;
+        background-color: #f99d1b;
+        color: #fff;
+        border: none; }
+    #section-send-mail textarea {
+      width: 100%;
+      height: 280px; }
+
+  .contact-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto 300px;
+    grid-column-gap: 20px; }
+    .contact-container .contact-content {
+      width: 100%;
+      display: grid;
+      grid-template-rows: auto 250px;
+      grid-row-gap: 20px; }
+    .contact-container #contact-map {
+      position: absolute;
+      bottom: 0;
+      width: 600px;
+      height: 250px;
+      left: 50%;
+      margin-left: -292px; } }
+@media (min-width: 992px) and (max-width: 1199px) {
+  #section-send-mail {
+    width: 600px;
+    height: 100%;
+    display: table;
+    margin: 0 auto;
+    padding-bottom: 15px; }
+    #section-send-mail form {
+      margin-top: 15px; }
+      #section-send-mail form input[type="text"] {
+        padding: 5px;
+        margin-bottom: 5px;
+        line-height: 25px; }
+      #section-send-mail form input[name="email"] {
+        width: 100%; }
+      #section-send-mail form input[name="name"], #section-send-mail form input[name="number"] {
+        width: 297px; }
+      #section-send-mail form input[name="number"] {
+        float: right; }
+      #section-send-mail form input[type="submit"] {
+        padding: 5px;
+        width: 100%;
+        line-height: 25px;
+        font-weight: bold;
+        background-color: #f99d1b;
+        color: #fff;
+        border: none; }
+    #section-send-mail textarea {
+      width: 100%;
+      height: 280px; }
+
+  .contact-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto 300px;
+    grid-column-gap: 20px; }
+    .contact-container .contact-content {
+      width: 100%;
+      display: grid;
+      grid-template-rows: auto 250px;
+      grid-row-gap: 20px; }
+    .contact-container #contact-map {
+      position: absolute;
+      bottom: 0;
+      width: 600px;
+      height: 250px;
+      left: 50%;
+      margin-left: -292px; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  #section-send-mail {
+    width: 600px;
+    height: 100%;
+    display: table;
+    margin: 0 auto;
+    padding-bottom: 15px; }
+    #section-send-mail form {
+      margin-top: 15px; }
+      #section-send-mail form input[type="text"] {
+        padding: 5px;
+        margin-bottom: 5px;
+        line-height: 25px; }
+      #section-send-mail form input[name="email"] {
+        width: 100%; }
+      #section-send-mail form input[name="name"], #section-send-mail form input[name="number"] {
+        width: 297px; }
+      #section-send-mail form input[name="number"] {
+        float: right; }
+      #section-send-mail form input[type="submit"] {
+        padding: 5px;
+        width: 100%;
+        line-height: 25px;
+        font-weight: bold;
+        background-color: #f99d1b;
+        color: #fff;
+        border: none; }
+    #section-send-mail textarea {
+      width: 100%;
+      height: 280px; }
+
+  .contact-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto 300px;
+    grid-column-gap: 20px; }
+    .contact-container .contact-content {
+      width: 100%;
+      display: grid;
+      grid-template-rows: auto 250px;
+      grid-row-gap: 20px; }
+    .contact-container #contact-map {
+      position: absolute;
+      bottom: 0;
+      width: 600px;
+      height: 250px;
+      left: 50%;
+      margin-left: -292px; } }
+@media (min-width: 576px) and (max-width: 767px) {
+  #section-send-mail {
+    width: 600px;
+    height: 100%;
+    display: table;
+    margin: 0 auto;
+    padding-bottom: 15px; }
+    #section-send-mail form {
+      margin-top: 15px; }
+      #section-send-mail form input[type="text"] {
+        padding: 5px;
+        margin-bottom: 5px;
+        line-height: 25px; }
+      #section-send-mail form input[name="email"] {
+        width: 100%; }
+      #section-send-mail form input[name="name"], #section-send-mail form input[name="number"] {
+        width: 297px; }
+      #section-send-mail form input[name="number"] {
+        float: right; }
+      #section-send-mail form input[type="submit"] {
+        padding: 5px;
+        width: 100%;
+        line-height: 25px;
+        font-weight: bold;
+        background-color: #f99d1b;
+        color: #fff;
+        border: none; }
+    #section-send-mail textarea {
+      width: 100%;
+      height: 280px; }
+
+  .contact-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto 300px;
+    grid-column-gap: 20px; }
+    .contact-container .contact-content {
+      width: 100%;
+      display: grid;
+      grid-template-rows: auto 250px;
+      grid-row-gap: 20px; }
+    .contact-container #contact-map {
+      position: absolute;
+      bottom: 0;
+      width: 600px;
+      height: 250px;
+      left: 50%;
+      margin-left: -292px; } }
+@media (min-width: 0px) and (max-width: 575px) {
+  #section-send-mail {
+    width: 300px;
+    height: 100%;
+    display: table;
+    margin: 0 auto;
+    padding-bottom: 15px; }
+    #section-send-mail form {
+      margin-top: 15px; }
+      #section-send-mail form input[type="text"] {
+        padding: 5px;
+        margin-bottom: 5px;
+        line-height: 25px; }
+      #section-send-mail form input[name="email"] {
+        width: 100%; }
+      #section-send-mail form input[name="name"], #section-send-mail form input[name="number"] {
+        width: 147px; }
+      #section-send-mail form input[name="number"] {
+        float: right; }
+      #section-send-mail form input[type="submit"] {
+        padding: 5px;
+        width: 100%;
+        line-height: 25px;
+        font-weight: bold;
+        background-color: #f99d1b;
+        color: #fff;
+        border: none; }
+    #section-send-mail textarea {
+      width: 100%;
+      height: 280px; }
+
+  .contact-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto 300px;
+    grid-column-gap: 20px; }
+    .contact-container .contact-content {
+      width: 100%;
+      display: grid;
+      grid-template-rows: auto 250px;
+      grid-row-gap: 20px; }
+    .contact-container #contact-map {
+      position: absolute;
+      bottom: 0;
+      width: 300px;
+      height: 250px;
+      left: 50%;
+      margin-left: -142px; } }
 
 /*# sourceMappingURL=contact.css.map */

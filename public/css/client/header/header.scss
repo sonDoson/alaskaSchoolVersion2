@@ -46,16 +46,11 @@
             height: 110px;
             width: 716px;
             float: right;
-            display: grid;
-            grid-template-rows: 50% 50%;
             a{
                 color: #ffffff;
             }
             #nav-top{
                 margin-top: 40px;
-                display: grid;
-                grid-template-columns: 140px 100px 170px 228px;
-                grid-column-gap: 15px;
                 #nav-search{
                     margin-top: -3px;
                     input[type=text]{
@@ -72,10 +67,15 @@
                 }
             }
             #nav-bottom{
-                margin-top: 30px;
-                display: grid;
-                grid-template-columns: 150px 150px 150px;
-                grid-column-gap: 15px;
+                padding-left: 0 !important;
+                position: absolute;
+                bottom: 5px;
+                z-index: 40;
+                width: 600px;
+                a{
+                    padding-left: 0 !important;
+                    width: 200px;
+                }
             }
         }
     }
@@ -97,7 +97,7 @@
   
     #mobile-nav{
         display: none;
-    }
+    }    
     header{
         position: relative;
         width: 100%;
@@ -107,6 +107,7 @@
         background-size: auto 100%;
         background-position: right;
         background-repeat: no-repeat;
+
     }
     #cover-left{
         width: 500px;
@@ -135,16 +136,11 @@
             height: 110px;
             width: 716px;
             float: right;
-            display: grid;
-            grid-template-rows: 50% 50%;
             a{
                 color: #ffffff;
             }
             #nav-top{
                 margin-top: 40px;
-                display: grid;
-                grid-template-columns: 140px 100px 170px 228px;
-                grid-column-gap: 15px;
                 #nav-search{
                     margin-top: -3px;
                     input[type=text]{
@@ -161,10 +157,15 @@
                 }
             }
             #nav-bottom{
-                margin-top: 30px;
-                display: grid;
-                grid-template-columns: 150px 150px 150px;
-                grid-column-gap: 15px;
+                padding-left: 0 !important;
+                position: absolute;
+                bottom: 5px;
+                z-index: 40;
+                width: 600px;
+                a{
+                    padding-left: 0 !important;
+                    width: 200px;
+                }
             }
         }
     }
