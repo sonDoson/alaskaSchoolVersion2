@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
     <title>Alaskaschool</title>
-    <link rel="shortcut icon" href="{{ asset('/uploads/logo/icon/logo_icon.png')}}" />
+    <link rel="shortcut icon" href="{{ asset('/uploads/logo/icon/logo_icon_color_1.png')}}" />
     <!-- Fonts -->
     <link href="{{asset('css/font_awesome/fontawesome-free-5.3.1-web')}}/css/all.css" rel="stylesheet">
     <!-- Styles -->
